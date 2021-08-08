@@ -1,7 +1,6 @@
 const API_KEY = "64e85a1603c9f8ee32be8fc8c0d0a2d6";
 
 function drawWeather(data) {
-    console.log(data);
     const city = data.name;
     const weather = data.weather[0].main;
     const celsiusTemp = data.main.temp;
